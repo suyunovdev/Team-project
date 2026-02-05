@@ -205,3 +205,9 @@ React
 React Router
 CSS / Tailwind (ixtiyoriy)
 Axios (agar API bo‘lsa)
+
+loyihani pull qilish uchun ```git pull origin master
+
+```
+
+```
