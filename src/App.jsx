@@ -4,7 +4,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <h1 className="text-3xl">Hello world</h1>
+      <h1 className="text-3xl">Hello Jobir massajist</h1>
     </div>
   );
 };
