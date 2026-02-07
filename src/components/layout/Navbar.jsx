@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
+import logo from "../../../public/Logo.svg";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -10,9 +11,9 @@ const Navbar = () => {
 
   const navLinks = [
     { path: "/", label: "Home" },
-    { path: "/about", label: "About" },
     { path: "/blog", label: "Blog" },
     { path: "/singleblog", label: "Single Blog" },
+    { path: "/about", label: "About" },
     { path: "/contact", label: "Contact" },
   ];
 
@@ -20,7 +21,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          <span className="logo-text">Team Project</span>
+          <img src={logo} />
         </Link>
 
         {/* Mobile Menu Button */}
